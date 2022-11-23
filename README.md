@@ -11,5 +11,6 @@
     * PWM LED x5 (GPIO)
     * Button x2 (GPIO)
     * LCD (?)
+    * BLE for for communication with host (mainly for signal web navigation blocker)
     * Speaker (DAC?)
     * Command Line (UART)
