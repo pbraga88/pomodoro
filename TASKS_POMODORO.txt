@@ -1,0 +1,54 @@
+Pomodoro
+========
+
+- Create Repository - OK
+	- Add the follow to Readme.md - OK
+		Requirements:
+		* Use Cortex-M processor
+		* Have a button that causes an interrupt
+		* Use at least 3 peripherals such as ADC, DAC, PWM LED, SMART LED, LCD, SENSOR, BLE
+		* Serial port output
+		* Implement and algorithmic piece that makes the system interesting
+		* Implement a state machine
+
+		Peripherals/Interfaces:
+		* PWM LED x5 (GPIO)
+		* Button x2 (GPIO)
+		* LCD (?)
+		* Speaker (DAC?)
+		* Command Line (UART)
+		
+	- Add white-board picture - OK
+	- Create Block Diagram using DrawIO (benchmark SystemDraft) 
+	- Create State Machine
+		- Excel (benchmark SystemDraft and bear in mind BLE is not covered there)
+- Write the Algorithm
+	* Use CPP (add good practicies studied)
+	- Consider the use of BLE for communication with host
+		- Confirm the board has BLE support and whether it's possible to connect with host pc - OK
+			* Expansion kit/External BLE module is needed
+			* Didn't find anything obvious online
+		- Ask in the Making Embedded System Discord - OK
+			* Waiting for feedback from Erin [23.11.2022]
+		- Buy Adafruit (or Adafruit-like) BLE board
+	- Write the sequence diagram
+	- Write the algorithm
+		* Each peripheral shall have a different class (think about it)
+	
+- Connect LEDs
+	- Toggle LEDs
+	
+- Connect the buttons (B1 and B2)
+	- Turn ON/OFF LEDs on the button press
+
+- Define LCD to use
+	- Understand how to use it
+	
+- Adafruit (or Adafruit-like) BLE
+	- Understand how to use it
+
+- Speaker
+	* Is it considered DAC? Understand
+	- Understand how to use it
+	
+- Command Line interface over UART
