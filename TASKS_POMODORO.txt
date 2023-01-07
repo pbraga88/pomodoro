@@ -19,7 +19,7 @@ Pomodoro
 		* Command Line (UART)
 		
 	- Add white-board picture - OK
-	- Create Block Diagram using DrawIO (benchmark SystemDraft) 
+	- Create Block Diagram using DrawIO (benchmark SystemDraft) - OK
 	- Create State Machine
 		- Excel (benchmark SystemDraft and bear in mind BLE is not covered there)
 - Write the Algorithm
