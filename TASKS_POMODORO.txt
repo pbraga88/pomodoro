@@ -20,8 +20,8 @@ Pomodoro
 		
 	- Add white-board picture - OK
 	- Create Block Diagram using DrawIO (benchmark SystemDraft) - OK
-	- Create State Machine
-		- Excel (benchmark SystemDraft and bear in mind BLE is not covered there)
+	- Create State Machine - OK
+		- Excel (benchmark SystemDraft and bear in mind BLE is not covered there) - OK
 - Write the Algorithm
 	* Use CPP (add good practicies studied)
 	- Consider the use of BLE for communication with host
