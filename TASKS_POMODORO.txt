@@ -30,8 +30,8 @@ Pomodoro
 			* Didn't find anything obvious online
 		- Ask in the Making Embedded System Discord - OK
 			* Waiting for feedback from Erin [23.11.2022]
-		- Buy Adafruit (or Adafruit-like) BLE board
-	- Write the sequence diagram
+		- Buy Adafruit (or Adafruit-like) BLE board - OK
+	- Write the sequence diagram 
 	- Write the algorithm
 		* Each peripheral shall have a different class (think about it)
 	
@@ -50,5 +50,10 @@ Pomodoro
 - Speaker
 	* Is it considered DAC? Understand
 	- Understand how to use it
-	
+
+- BLE
+	- Read BLE content from Adafruit:
+		* https://learn.adafruit.com/introduction-to-bluetooth-low-energy/introduction
+	- Connect BLE device to the STM32
+
 - Command Line interface over UART
