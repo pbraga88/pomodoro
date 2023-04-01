@@ -31,9 +31,10 @@ Pomodoro
 		- Ask in the Making Embedded System Discord - OK
 			* Waiting for feedback from Erin [23.11.2022]
 		- Buy Adafruit (or Adafruit-like) BLE board - OK
-	- Write the sequence diagram 
+	- Write the sequence diagram - OK
 	- Write the algorithm
 		* Each peripheral shall have a different class (think about it)
+		- Create a DEBUG macro
 	
 - Connect LEDs
 	- Toggle LEDs

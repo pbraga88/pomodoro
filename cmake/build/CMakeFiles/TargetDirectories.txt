@@ -1,0 +1,4 @@
+/home/pbraga/Workspace/Pessoal/Repositories/Pomodoro/pomodoro/cmake/build/CMakeFiles/rebuild_cache.dir
+/home/pbraga/Workspace/Pessoal/Repositories/Pomodoro/pomodoro/cmake/build/CMakeFiles/edit_cache.dir
+/home/pbraga/Workspace/Pessoal/Repositories/Pomodoro/pomodoro/cmake/build/CMakeFiles/Pomodoro.dir
+/home/pbraga/Workspace/Pessoal/Repositories/Pomodoro/pomodoro/cmake/build/CMakeFiles/pomodoroLib.dir

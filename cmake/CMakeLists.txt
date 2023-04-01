@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 
 # set the project name
-project(LinkedList)
+project(Pomodoro)
 
 # point the compiler to build with C++14
 set(CMAKE_CXX_STANDARD 14)
@@ -24,12 +24,15 @@ set(LIBRARY_OUTPUT_PATH  ${CMAKE_BINARY_DIR}/lib)
 
 # Include path for headers
 set(INC ${CMAKE_HOME_DIRECTORY}/include)
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -lncursesw")
 include_directories(${INC})
 
 # library source
-set(LIB_SRC lib_src/linkedListOperations.cpp
-            lib_src/numberOperations.cpp
-            lib_src/printAndFree.cpp)
+set(LIB_SRC lib_src/ble.cpp
+            lib_src/buttons.cpp
+            lib_src/lcd.cpp
+            lib_src/leds.cpp
+            lib_src/speaker.cpp)
 
 # show log message during 'cmake CMakeLists.txt' exectution
 message(${CMAKE_BINARY_DIR})
@@ -38,11 +41,11 @@ message(${CMAKE_BINARY_DIR})
 # set(SOURCES src/main.cpp)
 
 # create libraries (shared or static)
-add_library(linkedListLib SHARED ${LIB_SRC})
+add_library(pomodoroLib SHARED ${LIB_SRC})
 #add_library(math STATIC ${LIB_SRC})
 
 # add the executable
-add_executable(LinkedList src/main.cpp)
+add_executable(Pomodoro src/main.cpp)
 
 # link the binary with the library
-target_link_libraries(LinkedList linkedListLib)
+target_link_libraries(Pomodoro pomodoroLib ncurses)

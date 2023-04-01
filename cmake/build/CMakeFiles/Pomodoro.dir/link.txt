@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall   -lncursesw -rdynamic CMakeFiles/Pomodoro.dir/src/main.cpp.o  -o bin/Pomodoro  -Wl,-rpath,/home/pbraga/Workspace/Pessoal/Repositories/Pomodoro/pomodoro/cmake/build/lib lib/libpomodoroLib.so -lncurses 

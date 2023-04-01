@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall  -shared -Wl,-soname,libpomodoroLib.so -o lib/libpomodoroLib.so CMakeFiles/pomodoroLib.dir/lib_src/ble.cpp.o CMakeFiles/pomodoroLib.dir/lib_src/buttons.cpp.o CMakeFiles/pomodoroLib.dir/lib_src/lcd.cpp.o CMakeFiles/pomodoroLib.dir/lib_src/leds.cpp.o CMakeFiles/pomodoroLib.dir/lib_src/speaker.cpp.o 
