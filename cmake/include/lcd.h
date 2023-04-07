@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <string_view>
+#include "interface.h"
 
 namespace LCD {
 
@@ -13,6 +14,9 @@ namespace LCD {
     public:
         lcd();
         ~lcd();
+
+        // To register callback
+        void callback_init(Interface* interface);
 
         void initialize(char* init_msg);
         void write(char* input_msg);
